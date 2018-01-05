@@ -24,7 +24,7 @@ public class Point {
 	private Double y = null;
 
 	
-	public  HashMap<Double, List<Point>> map = new HashMap<>();
+	public transient HashMap<Double, List<Point>> map = new HashMap<>();
 	
 	
 	/**

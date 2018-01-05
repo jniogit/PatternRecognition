@@ -13,12 +13,12 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-//		Point p = new Point();
-//		
-//		p.setX(6.3);
-//		p.setY(311.8);
-//		
-//		JSONFIle.append(p, "src/json.json");
+		Point p = new Point();
+		
+		p.setX(4.0);
+		p.setY(8.0);
+		
+		JSONFIle.append(p, "src/json.json"); /*
 //		
 //		List<Point> pl = JSONFIle.read("src/json.json");
 //		
@@ -101,7 +101,7 @@ public class Main {
     	}
     	
     	System.out.println(lp2.size());
-
+*/
 	}
 
 }

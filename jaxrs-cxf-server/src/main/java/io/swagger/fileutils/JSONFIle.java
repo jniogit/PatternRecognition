@@ -49,10 +49,11 @@ public class JSONFIle {
 			Points points = new Points();
 			while (iterator.hasNext()) {
 				Point p2 = gson.fromJson(iterator.next().toString(), Point.class);
-				if(p.getX()!=p2.getX()&&p.getY()!=p2.getY())
-					points.addPoints(p2);
+				//if(p.getX()!=p2.getX()&&p.getY()!=p2.getY())
+				if(!p.getX().equals(p2.getX()) && !p.getY().equals(p2.getY()))
+					points.addPoint(p2);
 			}
-			points.addPoints(p);
+			points.addPoint(p);
 
 			gson.toJson(points, Points.class, jw);
 			file.close();
@@ -90,7 +91,7 @@ public class JSONFIle {
 			iterator = msg.iterator();
 
 			while (iterator.hasNext()) {
-				points.addPoints(gson.fromJson(iterator.next().toString(), Point.class));
+				points.addPoint(gson.fromJson(iterator.next().toString(), Point.class));
 			}
 
 		}

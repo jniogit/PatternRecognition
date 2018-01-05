@@ -26,7 +26,7 @@ public class Points {
 		this.points = points;	
 	}
 	
-	public void addPoints(Point point) {
+	public void addPoint(Point point) {
 		this.points.add(point);
 	}
 	
