@@ -48,7 +48,9 @@ public class JSONFIle {
 
 			Points points = new Points();
 			while (iterator.hasNext()) {
-				points.addPoints(gson.fromJson(iterator.next().toString(), Point.class));
+				Point p2 = gson.fromJson(iterator.next().toString(), Point.class);
+				if(p.getX()!=p2.getX()&&p.getY()!=p2.getY())
+					points.addPoints(p2);
 			}
 			points.addPoints(p);
 
