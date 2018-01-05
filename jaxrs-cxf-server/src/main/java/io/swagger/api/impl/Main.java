@@ -18,9 +18,9 @@ public class Main {
 //		p.setX(6.3);
 //		p.setY(311.8);
 //		
-//		JSONFIle.append(p, "src/json.json");
+//		JSONFIle.append(p, "c:/json2.json");
 //		
-//		List<Point> pl = JSONFIle.read("src/json.json");
+//		List<Point> pl = JSONFIle.read("c:/json2.json");
 //		
 //		Iterator<Point> it = pl.iterator();
 //		
@@ -29,7 +29,7 @@ public class Main {
 //			System.out.println(it.next().toString());
 //		}
 //		
-//		JSONFIle.delete("src/json.json");
+//		JSONFIle.delete("c:/json2.json");
 //		
 //		
 //		String[] args2 = new String[1];
@@ -39,7 +39,7 @@ public class Main {
 //		System.out.println(args2[0]);
 		
 		
-		List<Point> lp = JSONFIle.read("src/json.json");
+		List<Point> lp = JSONFIle.read("c:/json2.json");
     	
     	List<Point> lp2 = new ArrayList<Point>();
     	

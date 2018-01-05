@@ -9,7 +9,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 
 /**
- * @author EugenioRappoccio
+ * @author EugenioRa
  * 
  * Model of Point for bidimensional plane
  *

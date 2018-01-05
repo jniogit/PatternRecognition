@@ -8,7 +8,7 @@ import com.google.gson.annotations.Expose;
 import io.swagger.model.Point;
 
 /**
- * @author EugenioRappoccio
+ * @author EugenioRa
  *
  * Model to contain List of <code>Point</code>
  *
